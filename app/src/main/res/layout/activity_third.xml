@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.widget.ViewGroup082601 xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <com.example.myapplication.widget.CircleView-->
+    <!--        android:id="@+id/view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <com.example.myapplication.widget.ProvinceView-->
+    <!--        android:id="@+id/view"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="#30ff0000">-->
+
+    <!--        <androidx.appcompat.widget.AppCompatEditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:hint="用户名" />-->
+    <!--    </FrameLayout>-->
+
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="#30000000">-->
+
+    <!--        <com.example.myapplication.widget.MaterialEdittext-->
+    <!--            android:id="@+id/mEdittext"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            app:useFloatingLabel="false"-->
+    <!--            app:subtitle="sss"-->
+    <!--            android:hint="用户名" />-->
+    <!--    </FrameLayout>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="click" />-->
+
+    <!--    <com.example.myapplication.widget.SquareImageView-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        android:src="@drawable/icon_android3" />-->
+    <!--    <com.example.myapplication.widget.CircleView2-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_weight="1"-->
+    <!--        android:layout_height="0dp"-->
+    <!--        android:background="#ffaacc" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="北京市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ColoredTextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="上海市" />-->
+
+    <!--    <com.example.myapplication.widget.ScalableImageView4-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <!--    <com.example.myapplication.widget.MultiTouchView1to2-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新疆维吾尔自治区"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="深圳"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天津市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="郑州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杭州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新疆维吾尔自治区"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="深圳"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天津市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="郑州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杭州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新疆维吾尔自治区"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="深圳"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天津市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="郑州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杭州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北京市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新疆维吾尔自治区"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="广州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="深圳"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天津市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="郑州市"
+        android:textColor="@color/white" />
+    <com.example.myapplication.widget.DefineView0825
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="杭州市"
+        android:textColor="@color/white" />
+</com.example.myapplication.widget.ViewGroup082601>

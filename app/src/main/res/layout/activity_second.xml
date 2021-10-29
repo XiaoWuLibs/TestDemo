@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="androidx.databinding.BindingAdapter" />
+
+        <variable
+            name="personList"
+            type="java.util.ArrayList&lt;String>" />
+
+        <variable
+            name="infoBean"
+            type="com.example.myapplication.bean.InfoBean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="这是第二个页面"
+            android:visibility="@{infoBean.visiable?View.VISIBLE:View.INVISIBLE}" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnShowHide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="viewStub" />
+
+        <include layout="@layout/layout_second_child" />
+
+        <ViewStub
+            android:id="@+id/viewStub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inflatedId="@+id/llEmpty"
+            android:layout="@layout/layout_empty" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click"
+            app:paddingLeft="@{500}" />
+
+        <EditText
+            android:id="@+id/etContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入内容" />
+
+        <TextView
+            android:id="@+id/tvContent2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@{etContent.text.toString()}" />
+
+        <com.zkk.view.rulerview.RulerView
+            android:id="@+id/ruler_height"
+            android:layout_width="match_parent"
+            android:layout_height="58.0dp"
+            android:layout_marginTop="24.0dip"
+            app:alphaEnable="true"
+            app:lineColor="@color/white"
+            app:lineMaxHeight="40dp"
+            app:lineMidHeight="30dp"
+            app:lineMinHeight="20dp"
+            app:lineSpaceWidth="10dp"
+            app:lineWidth="2dip"
+            app:maxValue="250.0"
+            app:minValue="80.0"
+            app:perValue="1"
+            app:selectorValue="165.0"
+            app:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnGoToThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去往第三个页面"/>
+
+    </LinearLayout>
+</layout>
