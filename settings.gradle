@@ -1,2 +1,5 @@
 rootProject.name = "My Application"
 include ':app'
+
+include ':TestSubModule1'
+project(':TestSubModule1').projectDir = new File(rootDir, 'TestSubModule/')

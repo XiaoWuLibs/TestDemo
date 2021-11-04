@@ -7,12 +7,6 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.SpannableString;
-import android.text.Spanned;
-import android.text.TextUtils;
-import android.text.style.LeadingMarginSpan;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
@@ -24,10 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import com.example.myapplication.R;
-import com.example.myapplication.UserInfoBean;
-import com.example.myapplication.bean.MessageWrap;
 import com.example.myapplication.bean.Second2MainWrap;
-import com.example.myapplication.utils.AlarmUtil;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -35,16 +26,6 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;
-import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
-import java.util.concurrent.ThreadFactory;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 import io.reactivex.rxjava3.core.Single;
 import io.reactivex.rxjava3.core.SingleObserver;
@@ -109,7 +90,8 @@ public class MainActivity extends AppCompatActivity {
 //            MVVMActivity.startActivity(MainActivity.this);
 //            ObservableActivity.startActivity(MainActivity.this);
 //            LiveDataActivity.startActivity(MainActivity.this);
-            DaggerActivity.startActivity(MainActivity.this);
+//            DaggerActivity.startActivity(MainActivity.this);
+            com.study.testdemosubmodule.MainActivity.startActivity(MainActivity.this);
         });
     }
 
