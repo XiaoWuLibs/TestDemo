@@ -3,12 +3,14 @@ package com.example.myapplication.activity;
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -93,7 +95,11 @@ public class MainActivity extends AppCompatActivity {
 //            DaggerActivity.startActivity(MainActivity.this);
             com.study.testdemosubmodule.MainActivity.startActivity(MainActivity.this);
         });
+
+        BuildTypes.drawBadge(this);
     }
+
+
 
 
     public Drawable LayoutToDrawable(int layout_id) {
